@@ -1,4 +1,5 @@
-﻿using System;
+﻿using infinityStones;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using UnboundLib.Cards;
@@ -26,12 +27,12 @@ namespace infinityStones.Cards
 
         protected override string GetDescription()
         {
-            return "The Mind Stone is the fourth of the Infinity Stones to show up in the last few years. That's not a coincidence.";
+            return "<color=#9b59ff>Cosmic</color>\nThe Mind Stone bends thought itself.\nUnblockable bullets.";
         }
 
         protected override CardInfo.Rarity GetRarity()
         {
-            return CardInfo.Rarity.Cosmic;
+            return CardInfo.Rarity.Rare;
         }
 
         protected override CardInfoStat[] GetStats()
@@ -50,7 +51,7 @@ namespace infinityStones.Cards
 
         protected override CardThemeColor.CardThemeColorType GetTheme()
         {
-            return CardThemeColor.CardThemeColorType.DefensiveBlue;
+            return CardThemeColor.CardThemeColorType.MythicPurple;
         }
 
         protected override string GetTitle()
